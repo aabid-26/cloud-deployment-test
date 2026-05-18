@@ -4,7 +4,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message": "Hello from my Automated API!: DevOps Edition"} 
+    return {"message": "Hello World"} 
 
 @app.get("/health")
 def health_check():
